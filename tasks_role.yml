@@ -1,0 +1,6 @@
+---
+- name: ppppppppp
+  hosts: myrouters
+  tasks:
+    - name: nnnnnnnn
+      ansible.builtin.include_role: cisco_config_role 
