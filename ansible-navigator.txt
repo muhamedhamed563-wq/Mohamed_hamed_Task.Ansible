@@ -1,0 +1,7 @@
+2026-06-25T11:09:57.479462+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2026-06-25T11:09:57.480093+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2026-06-25T11:09:57.480144+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: inspecting object: quay.io/anwarfouad/ansible:latest: image not known
+
+2026-06-25T11:14:39.826441+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '337a8f9c-7ead-4e71-be03-15aec4fb0132', 'counter': 1, 'stdout': '', 'start_line': 0, 'end_line': 1, 'runner_ident': '1456f99b-9df5-4675-80bf-d534ccf8e565', 'created': '2026-06-25T11:14:39.817133'}
+2026-06-25T11:14:39.827267+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'b8d83110-f35e-442c-83c0-2d26f5e86bf8', 'counter': 2, 'stdout': 'playbook: /home/student/tasks.yml', 'start_line': 1, 'end_line': 2, 'runner_ident': '1456f99b-9df5-4675-80bf-d534ccf8e565', 'created': '2026-06-25T11:14:39.817384'}
